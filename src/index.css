@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.handle[data-onHai="true"]{
+    justify-content: flex-end;
+    background-color: #fff;
+}
+
+.main[data-bg="true"]{
+   background-color: black;
+}
+
+.kuchh[data-test="true"]{
+   opacity: 0;
+   color: black;
+}
+
+
+.change[data-hello="true"]{
+    opacity: 1;
+    color: #fff;
+ }
